@@ -1,0 +1,125 @@
+body {
+    --color-blue-1: #111f58;
+    --color-blue-2: #54ACDB ;
+    --color-gold: #e18256;
+    --color-orange: #EB5622; 
+    /* #bf4d1d */
+}
+
+
+body h2 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 2rem ;
+    font-weight: bold ;
+    color: var(--color-blue-1) !important;
+} 
+body h3 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+body p {
+    font-family: sans-serif;
+}
+/* ----------------Presentation----------------------- */
+.presentation {
+    background-image: url("./assets/images/presentation.jpg");
+    height: 100vh;
+}
+
+.presentation-c {
+    height: 100%;
+}
+
+.texto {
+    padding-top: 10rem;
+}
+
+.texto h1 {
+    font-family: 'sacramento';
+    font-size: 5rem;
+}
+
+.texto h2 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ------------------Hero------------------- */
+
+.img {
+    width: 13rem ;
+    border-radius: 50%;
+}
+
+.intro {
+    width: 40% !important;
+    margin: auto;
+}
+
+@media (max-width: 819px){
+    .intro{
+        width: 60% !important;
+    }
+}
+
+/* -------------Resume---------------------- */
+
+.iconos {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15%;
+    background-color: var(--color-gold);
+}
+
+.skills-title {
+    text-align: center;
+}
+
+.skill-icon {
+    width: 4.5rem ;
+    border-radius: 30%;
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 579px){
+    .skill-container {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* --------------------------About me--------------------- */
+.about-me-title {
+    text-align: center;
+}
+
+.about-container {
+    background-size: cover ;
+}
+
+.about-title{
+    color: var(--color-orange);
+}
+
+.about-icon {
+    background-color: var(--color-gold) !important;
+}
+
+
+/* -----------------------------Contact me---------------------- */
+
+.contact-container {
+    justify-content: space-around;
+}
+
+@media (min-width: 775px){
+    .email-container{
+        /* margin-left: 200px !important; */
+    }
+}
+
